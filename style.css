@@ -11,14 +11,14 @@
 }
 
 .main_section {
-  background-image: url("./1641493042-Math.jpg");
+  background-image: url("https://vasterad.com/themes/sphene/images/blog-post-header-03.jpg");
   height: 70vh;
 }
 
 .main_section .overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .main_section .overlay nav {
@@ -54,9 +54,15 @@
   color: #fff;
   padding: 30px 20px;
   cursor: pointer;
+  -webkit-transition: 0.5s border;
+  transition: 0.5s border;
 }
 
 .main_section .overlay nav .nav ul li.active {
+  border-bottom: 5px solid #fff;
+}
+
+.main_section .overlay nav .nav ul li:hover {
   border-bottom: 5px solid #fff;
 }
 
@@ -74,17 +80,62 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #fff;
   height: 70%;
+}
+
+.main_section .overlay .main_section_paragraph button {
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  outline: none;
+  border: none;
+  background-color: royalblue;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.main_section .overlay .main_section_paragraph button:last-of-type {
+  padding: 15px;
+  border-radius: 100px;
+  background-color: transparent;
+  outline: solid #fff 2px;
 }
 
 .main_section .overlay .main_section_paragraph .main_section_addtion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 20px 0;
 }
 
 .main_section .overlay .main_section_paragraph .main_section_addtion p {
   padding: 20px;
-  margin: 0 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.603);
+}
+
+.main_section .overlay .main_section_paragraph .main_section_addtion p:last-of-type {
+  border-right: none;
+}
+
+.slider {
+  margin-top: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
