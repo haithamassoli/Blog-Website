@@ -54,8 +54,10 @@
   color: #fff;
   padding: 30px 20px;
   cursor: pointer;
-  -webkit-transition: 0.5s border;
-  transition: 0.5s border;
+  -webkit-transition: 0.1s border ease-in;
+  transition: 0.1s border ease-in;
+  -webkit-transform-origin: center;
+          transform-origin: center;
 }
 
 .main_section .overlay nav .nav ul li.active {
@@ -63,6 +65,8 @@
 }
 
 .main_section .overlay nav .nav ul li:hover {
+  -webkit-transform-origin: center;
+          transform-origin: center;
   border-bottom: 5px solid #fff;
 }
 

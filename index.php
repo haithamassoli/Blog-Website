@@ -10,6 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Blog</title>
   </head>
@@ -23,10 +30,16 @@
               <img src="./orange-logo-lg.jpg" width="50" alt="" />
             </div>
             <ul>
-              <li class="active">Home</li>
-              <li>Categories</li>
-              <li>Login</li>
-              <li>SignUp</li>
+              <a href="http://"><li class="active">Home</li></a>
+              <a href="http://"><li>Categories</li></a>
+              <a href="./login.php"><li>Login</li></a>
+              <a href="./signup.php"><li>SignUp</li></a>
+              <a href="http://"
+                ><li><i class="fas fa-moon"></i></li
+              ></a>
+              <a href="http://"
+                ><li><i class="fas fa-sun"></i></li
+              ></a>
             </ul>
           </div>
         </nav>

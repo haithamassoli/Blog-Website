@@ -34,11 +34,15 @@
             color: #fff;
             padding: 30px 20px;
             cursor: pointer;
-            transition: 0.5s border;
+            transition: 0.1s border ease-in;
+            transform-origin: center;
+
+            // transform-origin: left;
             &.active {
               border-bottom: 5px solid #fff;
             }
             &:hover {
+              transform-origin: center;
               border-bottom: 5px solid #fff;
             }
           }
